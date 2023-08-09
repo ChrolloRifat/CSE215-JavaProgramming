@@ -51,7 +51,12 @@ public class Loops {
 				System.out.print(" ");
 			}
 			for(int k = 1; k <= num ; k++) {
-				System.out.print("1");
+				if(k % 2 == 0) {
+				System.out.print("0");
+				}
+				else {
+					System.out.print("1");
+				}
 				
 			}
 			
