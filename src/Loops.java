@@ -2,11 +2,20 @@
 public class Loops {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		loop1();
+		System.out.println();
+		loop2();
+		System.out.println();
 		loop3();
 	}
 	
 	public static void loop1() {
+		/*Print the following patterns using loop :
+					*
+					**
+					***
+					****
+		 */
 		for(int i = 0; i < 4; i++) {
 			for(int j = 0; j <= i; j++) {
 				System.out.print("*");
@@ -15,6 +24,13 @@ public class Loops {
 		}
 	}
 	public static void loop2() {
+		/*
+		 		 *
+		 		***
+		 	   *****
+		 		***
+		 		 *
+		 */
 		final int ROWS = 3;
 		int stars = 1;
 		int spaces = ROWS -1;
@@ -43,6 +59,13 @@ public class Loops {
 	}
 	
 	public static void loop3() {
+		/*
+		 	1010101
+			 10101
+			  101
+			   1 
+		 */
+		
 		final int Rows = 4;
 		int num = (Rows * 2) - 1;
 		int spaces = 0;
@@ -66,5 +89,4 @@ public class Loops {
 		}
 	}
 	
-
 }

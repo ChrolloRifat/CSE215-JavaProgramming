@@ -24,6 +24,7 @@ public class Palindrome {
 			
 			truth = lowStr.charAt(i) != lowStr.charAt(lowStr.length()-1-i) ? false  : lowStr.charAt(i) == lowStr.charAt(lowStr.length()-1-i) ? true : false;
 			
+			//alternative way using if-else block
 //			if(lowStr.charAt(i) != lowStr.charAt(lowStr.length()-1-i)) {
 //				break;
 //			}
