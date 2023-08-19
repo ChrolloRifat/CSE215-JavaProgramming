@@ -10,9 +10,10 @@ public class LogLevels {
 
 	public static String message(String logLine) {
     String mes = logLine.trim();
-    int start = mes.indexOf(":") + 2;
+    int start = mes.indexOf(":") + 1;
     int end = mes.length();
     System.out.println(end);
-    return mes.substring(start,end);
+    return mes.substring(start,end).trim();
 	}
+	
 }
