@@ -38,7 +38,7 @@ echo "Length of the string is ${#str}"
 read -p "Enter another string: " new_str
 joined_str=$str$new_str
 echo "Joined string: $joined_str"
-substring=${str:$1:$4}
+substring=${joined_str:3:10}
 echo "A substring extracted from earlier string: $substring"
 
 
