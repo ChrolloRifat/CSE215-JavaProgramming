@@ -4,8 +4,8 @@ public class FractionDriver{
 		
 		Fraction obj1 = new Fraction(); //referencing a fraction object 
 		obj1.setNumerator(3);  // setting the values of the variables
-		obj1.setDenominator(2);
-		Fraction obj2 = new Fraction(30,23); // referencing and setting the value in one go
+		obj1.setDenominator(5);
+		Fraction obj2 = new Fraction(1,4); // referencing and setting the value in one go
 		
 		//calling the methods
 		obj2.add(obj1);
