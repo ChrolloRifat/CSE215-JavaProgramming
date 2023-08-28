@@ -34,7 +34,6 @@ class Area {
 	{
 		return length*breadth;
 	}
-	@override
 	public String toString()
 	{
 		return "The length is: " + 
@@ -42,7 +41,8 @@ class Area {
 	" And the Area is: "+this.area();
 	}
 }
-public class Driver {
+
+public class Driver{
 	public static void main(String[] args) {
 		Area obj1 = new Area ();
 		obj1.setLength(2);
