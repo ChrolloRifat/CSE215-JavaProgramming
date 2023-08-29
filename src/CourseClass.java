@@ -11,6 +11,11 @@ public class CourseClass {
 		for(int i = 0; i < course.getStudents().length; i++) {
 			System.out.println(course.getStudents()[i]);
 		}
+		course.dropStudent("Rifat");
+		System.out.println("Total Students: " + course.getNumberOfStudents());
+		for(int i = 0; i < course.getStudents().length; i++) {
+			System.out.println(course.getStudents()[i]);
+		}
 		
 
 	}
@@ -36,6 +41,16 @@ class Course{
 		students[numberOfStudents] = student;
 		numberOfStudents++;
 	}
+	
+	// Needs debugging
+	public void dropStudent(String student) {
+//		for(int i = 0; i < students.length; i++) {
+//			if(students[i].equals(student)) {
+//				students[i] = "";
+//			}
+			numberOfStudents--;
+		}
+	
 	
 	public String[] getStudents() {
 		String[] studentList = new String[numberOfStudents];
