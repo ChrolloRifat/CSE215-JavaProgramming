@@ -1,5 +1,5 @@
 //Creating a class that will measure BMI
-public class BmiDriver {
+public class BmiClass {
 
 	public static void main(String[] args) {
 		BMI b1 = new BMI("Rifat",22 , 57, 1.57);
