@@ -14,7 +14,7 @@ public class FacultyClass{
 		System.out.println(fac.toString());
 		
 }
-
+}
 
 class Faculty extends Employee {
 private String initial;
