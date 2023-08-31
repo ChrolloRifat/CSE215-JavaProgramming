@@ -35,7 +35,7 @@ public class Person {
 	}
 	
 	public String toString() {
-		return "Name: " + name + " Gender: " + gender + " Age: " + age;
+		return "Name: " + name + ", Gender: " + gender + ", Age: " + age;
 	}
 	
 }

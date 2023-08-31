@@ -45,7 +45,7 @@ public class Employee extends Person {
 	}
 	
 	public String toString() {
-		return super.toString() + " ID: " + id + " Department: " + department + " Salary: " + salary;
+		return super.toString() + ", ID: " + id + ", Department: " + department + ", Salary: " + salary;
 	}
 	
 	
