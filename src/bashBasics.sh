@@ -54,9 +54,13 @@ else
 fi
 
 ## using strings as the arguments in the if-else conditions
-read -p "Now we gonna check if the previous two strings are the same or not"
-if [ "$str" = "$new_str" ];then
+read -p "Now we gonna check if the previous two strings are the same or not [Hit 'ENTER']"
+if [ "$str" = "$new_str" ]; then
 	echo "The Strings are the same"
+elif [ "$str" == "" ]; then
+	echo "The first string is empty"
+elif [ -z "$new_str" ]; then
+	echo "The second string is empty"
 else
 	echo "The Strings are different"
 fi
