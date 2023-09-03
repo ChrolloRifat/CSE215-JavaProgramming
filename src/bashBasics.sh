@@ -47,12 +47,19 @@ read -p "Enter a number to check if it is even or odd: " num
 mod=$(($num%2))
 if [ $mod -eq 0 ]; then
 	echo "The number is even"
-elif [ $mod -eq 3 ]; then
-	echo "The remainder after dividing by 2 is 3"
+elif [ $mod -gt 1 ]; then
+	echo "The remainder after dividing by 2 is greater than 1"
 else
 	echo "The number is odd"
 fi
 
+## using strings as the arguments in the if-else conditions
+read -p "Now we gonna check if the previous two strings are the same or not"
+if [ "$str" = "$new_str" ];then
+	echo "The Strings are the same"
+else
+	echo "The Strings are different"
+fi
 
 
 
