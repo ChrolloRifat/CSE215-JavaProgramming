@@ -42,7 +42,16 @@ substring=${joined_str:3:10}
 echo "A substring extracted from earlier string: $substring"
 
 
-
+## Using if-else condition
+read -p "Enter a number to check if it is even or odd: " num
+mod=$(($num%2))
+if [ $mod -eq 0 ]; then
+	echo "The number is even"
+elif [ $mod -eq 3 ]; then
+	echo "The remainder after dividing by 2 is 3"
+else
+	echo "The number is odd"
+fi
 
 
 
