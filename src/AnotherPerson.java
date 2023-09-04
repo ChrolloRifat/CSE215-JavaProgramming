@@ -6,7 +6,7 @@ public class AnotherPerson {
 	private String address;
 	
 	 AnotherPerson() {
-		
+		this("No name", 0, "Unknown");
 	}
 	
 	 AnotherPerson (String name, int age, String address) {
@@ -40,7 +40,7 @@ public class AnotherPerson {
 	}
 	
 	public String toString() {
-		return "Name: " + name + " Age: " + age + "Address: " + address;
+		return "Name: " + name + ", Age: " + age + ", Address: " + address;
 	}
 
 }

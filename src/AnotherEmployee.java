@@ -8,7 +8,7 @@ public class AnotherEmployee extends AnotherPerson {
 	
 	AnotherEmployee(){
 		
-		this( "Dept. not given", "Unknown designation");
+		this( "Unknown", "Unknown");
 		
 	}
 	AnotherEmployee(String department, String designation){
@@ -42,7 +42,7 @@ public class AnotherEmployee extends AnotherPerson {
 	}
 	
 	public String toString() {
-		return super.toString() + " Department: " + department + " Designation: " + designation;
+		return super.toString() + ", Department: " + department + ", Designation: " + designation;
 	}
 	
 	

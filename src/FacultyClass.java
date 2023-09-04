@@ -16,6 +16,12 @@ public class FacultyClass{
 		System.out.println(fac.toString()); 
 		//System.out.println(fac); // gives the same result as the toString
 		
+		//Using the PartTime and FullTime Employee objects
+		PartTimeEmployee part = new PartTimeEmployee(40, 23);
+		FullTimeEmployee full = new FullTimeEmployee(15000, 25);
+		
+		System.out.println(part + " Salary: " + part.salary());
+		System.out.println(full + " Salary: " + full.salary());		
 }
 }
 
