@@ -2,11 +2,10 @@
 public class LogLevels {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		
 		System.out.println(LogLevels.message("[ERROR]: Invalid operation"));
-		System.out.println(LogLevels.logLevel("[ERROR]: Invalid operation"));
-		System.out.println(LogLevels.reformat("[ERROR]: Operation Completed"));		
+		System.out.println(LogLevels.logLevel("[INFO]: Operation Completed"));
+		System.out.println(LogLevels.reformat("[WARNING]: Heading to the bush"));		
 	}
 
 	public static String message(String logLine) {
