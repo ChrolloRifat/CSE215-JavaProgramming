@@ -72,7 +72,8 @@ done
 
 
 ## using c-styled for-loop
-for((i = 0; i < 4; i++));do
+echo "This loop counts backwards:"
+for((i = 4; i > 0; i--));do
 	echo  $i 
 done
 
