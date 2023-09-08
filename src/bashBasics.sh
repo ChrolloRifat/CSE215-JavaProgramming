@@ -65,8 +65,16 @@ else
 	echo "The Strings are different"
 fi
 
+#using for loops
+for num in {1..9};do
+	echo $num
+done	
 
 
+## using c-styled for-loop
+for((i = 0; i < 4; i++));do
+	echo  $i 
+done
 
 
 
