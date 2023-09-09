@@ -77,8 +77,13 @@ for((i = 4; i > 0; i--));do
 	echo  $i 
 done
 
-
-
+#using while loops
+echo "This is the output of a while loop"
+num=1
+while [ $num -le 5 ];do
+	echo $num
+	num=$(($num+1))
+done
 
 
 
