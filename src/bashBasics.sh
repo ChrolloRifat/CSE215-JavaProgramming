@@ -66,6 +66,7 @@ else
 fi
 
 #using for loops
+echo "This is the output of a for loop"
 for num in {1..9};do
 	echo $num
 done	
@@ -85,7 +86,14 @@ while [ $num -le 5 ];do
 	num=$(($num+1))
 done
 
-
+#using until loops
+echo "This is the output of an until loop"
+num=1
+until [ $num -gt 5 ];do
+	double=$(($num*2))
+	echo $double
+	num=$(($num+1))
+done
 
 
 
