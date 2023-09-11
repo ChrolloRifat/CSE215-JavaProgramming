@@ -95,5 +95,5 @@ until [ $num -gt 5 ];do
 	num=$(($num+1))
 done
 
-
+#using functions
 
